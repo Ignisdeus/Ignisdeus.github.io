@@ -6,6 +6,7 @@
 <meta name="description" content="Michael Carstairs, Game Designer, Games Programmer">
 <meta name="keywords" content="Michael Carstairs, Michael, Carstairs, Game Designer, Game Prgrammer">
 <meta name="author" content="Michael Carstairs">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
 <style>
@@ -16,7 +17,7 @@
 }
 #wrapper{
 	background-color: #FFF;
-	height: auto;
+	height: 1550px;
 	width: 1100px;
 	margin-right: auto;
 	margin-left: auto;
@@ -35,10 +36,9 @@
 	float: none;
 	padding-left: 5px;
 	height: 125px;
-	width: 995px;
+	width: 90%;
 	clear: both;
 	border-bottom-style: solid;
-	border-bottom-color: #CCC;
 	margin-right: auto;
 	margin-left: auto;
 	background-image: url(Image/Header_Image.jpg);
@@ -119,12 +119,95 @@
 	border-bottom-style: solid;
 }
 #Skills{
-	background-color: #0CC;
-	height: 150px;
-	width: 995px;
+	height: 600px;
+	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+#SkillsBox{
+	height: 85%;
+	width: 95%;
+	clear: both;
+	margin: auto;
+	padding: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#SoftSkillsBox{
+	height: 95%;
+	width: 95%;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Right_Skills{
+	height: 95%;
+	width: 48%;
+	float: right;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+#Left_Skills{
+	width: 48%;
+	height: 95%;
+	float: left;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#CompImage{
+	clear: both;
+	float: left;
+	height: 49%;
+	width: 128px;
+}
+#CompSkills{
+	height: 95%;
+	width: 70%;
+	float: right;
+	padding-left: 2px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#SkillsList{
+	font-size: 24px;
+	line-height: 0px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+#SkillsList_PartTwo{
+	font-size: 18px;
+	font-weight: bold;
+}
+#Game_Design_Skills{
+	float: right;
+	height: 45%;
+	width: 70%;
+	line-height: 0px;
+}
+#Top_Left_Skills{
+	height: 49%;
+	width: 99%;
+	margin-top: 5px;
+}
+#SkillsListGame{
+	font-weight: bold;
+	font-size: 24px;
+}
+#Contact_Infoamtion{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(Image/Header_Image.jpg);
+	height: 125px;
+}
+#email{
+	clear: both;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
 }
 </style>
 <link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
@@ -141,7 +224,7 @@
     <div id= "LeftHeader">
    	  <div id= "Name">
        	  <h2>Michael Carstairs</h2>
-        </div>
+      </div>
         <div id ="JobTitle">Game Programmer / Game Designer</div>
     
     </div>
@@ -149,7 +232,7 @@
     
   </div>
     
-	<div id = "SlideShow">
+  <div id = "SlideShow">
             
           <div id='coin-slider'>
                
@@ -167,23 +250,17 @@
                     <span>
                         
             </span>
-                
-                    <img src="Image/Image_Three.jpg" width="950px" , height="400"> <span>
-                         
+                    <img src="Image/Image_Three.jpg" width="950px" , height="400"> <span>   
                     </span>
-                
                 </a>
-              
           </div>
-    
-    
-	</div>
+</div>
     
     
 	<div id = "About">
    	  <div id = "AboutHeading"><h2> About Michael </h2></div>
       <div id = "AboutPara">
-      Michael Carstairs has studied Game Design for six years in this time he has received <br /> <b>BA Game Design</b> <br /><b>QQI Level 6 Games Development</b><br /> <b>QQI Level 5 3D Game Design</b><br />
+      Michael Carstairs has studied Game Design for six years in this time he has received <br /> <b>BA Game Design</b> <br /><b>QQI Level 6 Games Development</b><br /> <b>QQI Level 5 3D Game Design	</b><br />
 
 	Michael has contributed to many projects that can be viewed and played on <a href="https://michael-carstairs.itch.io/"><b>Itch.io</b></a>.<br />
 	These games range in genre, platform and input methods.<br /> During there time in Technological University Dublin (TU Dublin) Michael focused on Game Design and Programming.
@@ -191,20 +268,66 @@
       </div>	
     
     
-	</div>
-
-  <div id = "Skills">
-    
-    
-    
-    
   </div>
 
 
+<div id = "Skills">
+  
+  	<div id = "SkillsBox">
+    
+    	<div id = "Left_Skills">
+       	  <div id="Top_Left_Skills">
+                <div id = "CompImage"><img src="Image/Programming_Image.png" alt="Computer With fake Code" width="128" height="128"></div>
+                        <div id= "CompSkills">
+                      <p><h3><u>Programming Langauages</u></h3></p><p id = "SkillsList">C#, HTML,CSS, Java</p><p><h3><u> Programming Understadings</u></h3></p><p id ="SkillsList_PartTwo">Games Programming, OOP Programming Principles, Algorithm and Problem Solving  </p> 
+                    </div>
+          </div>
+        <div id="Top_Left_Skills">
+       		<div id = "CompImage"><img src="Image/Game_Image.png" alt="JoyStick" width="128" height="128"></div>
+        	<div id = "CompSkills"> 
+            	<p><h3><u>Game Design Skills</u></h3></p>
+              <p id = "SkillsListGame">Mechanic Design, System Design, Level Design, Score and Economics Design, Interaction Design, UI Design, Board Game and Digital game Design.</p>
+          </div>
+        </div>
+        </div>
+        <div id = "Right_Skills">
+        <div id="Top_Left_Skills">
+        	<div id = "CompImage"><img src="Image/Books_Image.png" alt="Books" width="128" height="128"></div>
+            <div id = "CompSkills"> 
+            <p><h3><u>IT Skills</u></h3></p>
+            <p><b>Microsft:</b> Word, Excel, Powerpoint <br />
+			   <b>Google:</b> Documents, Sheets, Slides, Forms <br />
+               <b>Adobe:</b> Photoshop, Dreamweaver, Illustrator,  InDesign 
+              </p>
+        	</div>
+        </div>
+        <div id="Top_Left_Skills">
+        	<div id = "CompImage"><img src="Image/Clock_Image.png" alt="Clock" width="128" height="128"></div>
+            <div id = "CompSkills"> 
+            <p><h3><u>Personal Skills</u></h3></p>
+            <p >Self-Management, Self-motivation, Team Work, Delegation, Collaboration, Written Communication, Constructive Feedback, Analysis, Persistence, Observation, Brain Storming, Disciplined, Time-management, Mentoring, Patience  </p>
+       	  </div>
+        </div>
+        </div> 
+    
+    </div>
+
+        
+  </div>
+
+	<div id = "Contact_Infoamtion">
+<div id = "email">
+            </p>
+            <a href="https://michael-carstairs.itch.io/">Itch.io</a><br />
+    <a href="https://www.linkedin.com/in/michael-carstairs-449633146/">Linked in Profile</a><br />
+            michael.j.carstairs@gmail.com 
+            </p>
+        <div>
+	</div>
 
 
 
-
+<!-- This is the wrapper div-->
 </div>
 </body></noframes>
 </html>
