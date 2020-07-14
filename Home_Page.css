@@ -6,7 +6,7 @@
 #wrapper{
 	background-color: #FFF;
 	height: 1650px;
-	width: 90%;
+	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
@@ -29,7 +29,8 @@
 	border-bottom-style: solid;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url(Image/Header_Image.jpg);
+	background-image: url(Image/Updated_Header.jpg);
+	background-repeat: no-repeat;
 }
 #About{
 	clear: both;
@@ -188,8 +189,9 @@
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url(Image/Header_Image.jpg);
+	background-image: url(Image/Updated_Header.jpg);
 	height: 125px;
+	background-repeat: no-repeat;
 }
 #email{
 	clear: both;
