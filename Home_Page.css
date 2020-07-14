@@ -333,7 +333,10 @@
 
 
 @media only screen and (max-width: 600px) {
-
+#body{
+	width: 100%;
+	background-color: #FFF;
+}
 #wrapper{
 	height: 3000px;
 	width: 100%;
@@ -415,7 +418,7 @@
 	line-height: 0px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 90%;
+	width: 100%;
 
 }
 #header{
@@ -430,6 +433,22 @@
 #tablet-Slider{
 	display: none;
 	}
+	    #Links a {
+	padding: 5px;
+	font-weight: normal;
+	float: left;
+}
+    #Links a:link {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+#Links{
+	float: right;
+	line-height: 0px;
+	padding-right: 5px;
+	color: #999;
+}
 }
 
 /* CSS Document */
