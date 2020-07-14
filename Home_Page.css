@@ -1,8 +1,5 @@
 @charset "utf-8";
-#id{
-	
-	
-}
+
 #wrapper{
 	background-color: #FFF;
 	height: 1650px;
@@ -318,7 +315,7 @@
 
 }
 #header{
-	height: 200px;
+	height: 128px;
 }
 #coin-slider{
 	display: none;
@@ -333,121 +330,155 @@
 
 
 @media only screen and (max-width: 600px) {
-#body{
+	#Body{
+	
 	width: 100%;
-	background-color: #FFF;
-}
-#wrapper{
+	}
+	#header{
+	height: 200px;
+	
+	}
+	#wrapper{
 	height: 3000px;
 	width: 100%;
-}
-#Skills{
-	width: 100%;
-	height: 1500px;
-	border-bottom-style: solid;
-	border-bottom-color: #CCC;
-}
-#SkillsBox{
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	height: 98%;
-	width: 100%;
-}
-#Right_Skills{
-	height: 50%;
-	width: 100%;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	margin-top: 10px;
-
-}
-#Left_Skills{
-	height: 50%;
-	width: 100%;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-#CompSkills{
-	height: 49%;
-	width: 100%;
-	padding-left: 2px;
-	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	clear: both;
-}
-#CompImage{
-	clear: both;
-	float: none;
-	height: 128px;
-	width: 128px;
-	margin-right: auto;
-	margin-left: auto;
-}
-#Top_Left_Skills{
-	height: 50%;
-	width: 90%;
-}
-
-#SlideShow{
-	width: 60%;
-	height: 400px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-bottom-style: solid;
+	}
+	#Skills{
+		width: 100%;
+		height: 1500px;
+		border-bottom-style: solid;
+		border-bottom-color: #CCC;
+	}
+	#SkillsBox{
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: none;
+		border-left-style: none;
+		height: 98%;
+		width: 100%;
+	}
+	#Right_Skills{
+		height: 50%;
+		width: 100%;
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: none;
+		border-left-style: none;
+		margin-top: 10px;
+	
+	}
+	#Left_Skills{
+		height: 50%;
+		width: 100%;
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: none;
+		border-left-style: none;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	#CompSkills{
+		height: 49%;
+		width: 100%;
+		padding-left: 2px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: none;
+		border-left-style: none;
+		clear: both;
+	}
+	#CompImage{
+		clear: both;
+		float: none;
+		height: 128px;
+		width: 128px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#Top_Left_Skills{
+		height: 50%;
+		width: 90%;
+	}
+	
+	#SlideShow{
+		width: 60%;
+		height: 400px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-bottom-style: solid;
+		clear: both;
+		float: left;
+		margin-left: 10%;
+	}
+	#Links{
+		clear: both;
+		height: 50px;
+		line-height: 0px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	
+	}
+	#coin-slider{
+		display: none;
+	}
+	#Mobile-Slider{
+		display: block;
+	}
+	#tablet-Slider{
+		display: none;
+		}
+			#Links a {
+		padding: 5px;
+		font-weight: normal;
+		float: left;
+	}
+		#Links a:link {
+		color: #333333;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	#Links{
+		float: right;
+		line-height: 0px;
+		padding-right: 5px;
+		color: #999;
+	}
+	#JobTitle{
 	clear: both;
 	float: left;
-	margin-left: 10%;
-}
-#Links{
+	height: 50px;
+	width: 100%;
+	line-height: 20px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	}
+	#Name{
 	clear: both;
 	height: 50px;
-	line-height: 0px;
+	width: 400px;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+#About{
+	clear: both;
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%;
-
-}
-#header{
-	height: 200px;
-}
-#coin-slider{
-	display: none;
-}
-#Mobile-Slider{
-	display: block;
-}
-#tablet-Slider{
-	display: none;
-	}
-	    #Links a {
-	padding: 5px;
-	font-weight: normal;
-	float: left;
-}
-    #Links a:link {
-	color: #333333;
-	text-decoration: none;
-	font-weight: bold;
-}
-#Links{
-	float: right;
-	line-height: 0px;
-	padding-right: 5px;
-	color: #999;
+	height: 270px;
+	width: 95%;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
 }
 }
 
