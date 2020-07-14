@@ -99,13 +99,13 @@
 	float: left;
 }
 #SlideShow{
-	width: 60%;
+	width: 85%;
 	height: 400px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-bottom-style: solid;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 }
 #Skills{
 	height: 600px;
@@ -222,6 +222,115 @@
     #Links a:active {
 	color: #000000;
 }
+#coin-slider{
+	display: block;
+}
+#Mobile-Slider{
+	display: none;
+}
+#tablet-Slider{
+	display: none;
+	}
+@media only screen and (max-width: 999px) {
+	
+	#wrapper{
+	height: 3000px;
+	width: 100%;
+}
+#Skills{
+	width: 100%;
+	height: 1500px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#SkillsBox{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 98%;
+	width: 100%;
+}
+#Right_Skills{
+	height: 50%;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 10px;
+
+}
+#Left_Skills{
+	height: 50%;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#CompSkills{
+	height: 49%;
+	width: 100%;
+	padding-left: 2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	clear: both;
+}
+#CompImage{
+	clear: both;
+	float: none;
+	height: 128px;
+	width: 128px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Top_Left_Skills{
+	height: 50%;
+	width: 90%;
+}
+
+#SlideShow{
+	width: 60%;
+	height: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	clear: both;
+	float: left;
+	margin-left: 10%;
+}
+#Links{
+	clear: both;
+	height: 50px;
+	line-height: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
+}
+#header{
+	height: 200px;
+}
+#coin-slider{
+	display: none;
+}
+#Mobile-Slider{
+	display: none;
+}
+#tablet-Slider{
+	display: block;
+	}
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -312,6 +421,15 @@
 #header{
 	height: 200px;
 }
+#coin-slider{
+	display: none;
+}
+#Mobile-Slider{
+	display: block;
+}
+#tablet-Slider{
+	display: none;
+	}
 }
 
 /* CSS Document */
