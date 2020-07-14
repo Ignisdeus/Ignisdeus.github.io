@@ -5,8 +5,8 @@
 }
 #wrapper{
 	background-color: #FFF;
-	height: 1550px;
-	width: 1100px;
+	height: 1650px;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
@@ -35,8 +35,8 @@
 	clear: both;
 	margin-right: auto;
 	margin-left: auto;
-	height: 220px;
-	width: 995px;
+	height: 250px;
+	width: 95%;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-top-color: #CCC;
@@ -68,7 +68,7 @@
 	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
 	clear: both;
-	width: 850px;
+	width: 95%;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 20px;
@@ -76,7 +76,8 @@
 	border-bottom-color: #CCC;
 }
 #Body{
-	background-color: #CCC;	
+	background-color: #CCC;
+	width: 100%;
 }
 #JobTitle{
 	clear: both;
@@ -97,18 +98,17 @@
 	float: left;
 }
 #SlideShow{
-	width: 900px;
-	margin-right: auto;
-	margin-left: auto;
+	width: 60%;
 	height: 400px;
-	background-color: #03C;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-bottom-style: solid;
+	margin-right: auto;
+	margin-left: auto;
 }
 #Skills{
 	height: 600px;
-	width: 1000px;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
@@ -219,9 +219,97 @@
 }
     #Links a:active {
 	color: #000000;
-	background-color: #FFFFFF;
 }
 
+@media only screen and (max-width: 600px) {
 
+#wrapper{
+	height: 3000px;
+	width: 100%;
+}
+#Skills{
+	width: 100%;
+	height: 1500px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#SkillsBox{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 98%;
+	width: 100%;
+}
+#Right_Skills{
+	height: 50%;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 10px;
+
+}
+#Left_Skills{
+	height: 50%;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#CompSkills{
+	height: 49%;
+	width: 100%;
+	padding-left: 2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	clear: both;
+}
+#CompImage{
+	clear: both;
+	float: none;
+	height: 128px;
+	width: 128px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Top_Left_Skills{
+	height: 50%;
+	width: 90%;
+}
+
+#SlideShow{
+	width: 60%;
+	height: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	clear: both;
+	float: left;
+	margin-left: 10%;
+}
+#Links{
+	clear: both;
+	height: 50px;
+	line-height: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+
+}
+#header{
+	height: 200px;
+}
+}
 
 /* CSS Document */
