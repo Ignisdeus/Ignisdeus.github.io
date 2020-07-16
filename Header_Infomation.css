@@ -1,0 +1,143 @@
+@charset "utf-8";
+#header{
+	float: none;
+	padding-left: 5px;
+	height: 125px;
+	width: 90%;
+	clear: both;
+	border-bottom-style: solid;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(Image/Updated_Header.jpg);
+	background-repeat: no-repeat;
+}
+#Name{
+	clear: both;
+	height: 50px;
+	width: 400px;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+#JobTitle{
+	clear: both;
+	float: left;
+	height: 50px;
+	width: 500px;
+	line-height: 20px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#LeftHeader{
+	height: 100px;
+	width: 400px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	clear: both;
+	float: left;
+}
+#Links{
+	float: right;
+	vertical-align: bottom;
+	line-height: 170px;
+	padding-right: 5px;
+	color: #999;
+}
+
+    #Links a { padding:15px; font-weight:bold; float:left; }
+#Links a:link {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+    #Links a:visited {
+	color: #993366;
+}
+    #Links a:hover {
+	color: #999999;
+}
+    #Links a:active {
+	color: #000000;
+}
+
+@media only screen and (max-width: 999px) {
+#BreakPoint 999px{}
+#header{
+	height: 125px;
+}
+#LeftHeader{
+	height: 100px;
+	width: 49%;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	clear: both;
+	float: left;
+}
+#Name{
+	clear: both;
+	height: 50px;
+	width: 100%;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+#JobTitle{
+	clear: both;
+	float: left;
+	height: 50px;
+	width: 500px;
+	line-height: 20px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#Links{
+
+}
+#Links a {
+
+	}
+#Links a:link {
+
+}
+
+	
+}
+@media only screen and (max-width: 600px) {
+
+#BreakPoint 600px{}
+#header{
+
+}
+#LeftHeader{
+
+}
+#JobTitle{
+
+	}
+#Name{
+
+}
+#Links{
+	clear: both;
+	height: 40px;
+	line-height: 0px;
+	width: 90%;
+	float: left;
+	padding-left: 10%;
+	margin-bottom: 10px;
+	
+	}
+#Links a {
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-size: 12px;
+
+
+	}
+#Links a:link {
+
+	}
+}
+/* CSS Document */

@@ -9,26 +9,7 @@
 	clear: both;
 }
 
-#Name{
-	clear: both;
-	height: 50px;
-	width: 400px;
-	float: left;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 18px;
-}
-#header{
-	float: none;
-	padding-left: 5px;
-	height: 125px;
-	width: 90%;
-	clear: both;
-	border-bottom-style: solid;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: url(Image/Updated_Header.jpg);
-	background-repeat: no-repeat;
-}
+
 #About{
 	clear: both;
 	margin-right: auto;
@@ -77,24 +58,8 @@
 	background-color: #CCC;
 	width: 100%;
 }
-#JobTitle{
-	clear: both;
-	float: left;
-	height: 50px;
-	width: 500px;
-	line-height: 20px;
-	font-size: 24px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-}
-#LeftHeader{
-	height: 100px;
-	width: 400px;
-	padding-top: 50px;
-	padding-bottom: 0px;
-	clear: both;
-	float: left;
-}
+
+
 #SlideShow{
 	width: 85%;
 	height: 400px;
@@ -196,29 +161,7 @@
 	text-align: right;
 	padding-right: 10px;
 }
-#Links{
-	float: right;
-	vertical-align: bottom;
-	line-height: 170px;
-	padding-right: 5px;
-	color: #999;
-}
 
-    #Links a { padding:15px; font-weight:bold; float:left; }
-    #Links a:link {
-	color: #333333;
-	text-decoration: none;
-	font-weight: bold;
-}
-    #Links a:visited {
-	color: #993366;
-}
-    #Links a:hover {
-	color: #999999;
-}
-    #Links a:active {
-	color: #000000;
-}
 #coin-slider{
 	display: block;
 }
@@ -231,7 +174,7 @@
 @media only screen and (max-width: 999px) {
 	
 	#wrapper{
-	height: 3000px;
+	height: 2554px;
 	width: 100%;
 }
 #Skills{
@@ -305,18 +248,7 @@
 	float: left;
 	margin-left: 10%;
 }
-#Links{
-	clear: both;
-	height: 50px;
-	line-height: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
 
-}
-#header{
-	height: 128px;
-}
 #coin-slider{
 	display: none;
 }
@@ -334,12 +266,8 @@
 	width: 100%;
 	background-color: #FFF;
 	}
-	#header{
-	height: 200px;
-	
-	}
 	#wrapper{
-	height: 3000px;
+	height: 2500px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -406,24 +334,16 @@
 	}
 	
 	#SlideShow{
-		width: 60%;
-		height: 400px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		border-bottom-style: solid;
-		clear: both;
-		float: left;
-		margin-left: 10%;
+	width: 60%;
+	height: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	clear: both;
+	float: left;
+	margin-left: 20%;
 	}
-	#Links{
-		clear: both;
-		height: 50px;
-		line-height: 0px;
-		margin-right: auto;
-		margin-left: auto;
-		width: 100%;
-	
-	}
+
 	#coin-slider{
 		display: none;
 	}
@@ -433,52 +353,20 @@
 	#tablet-Slider{
 		display: none;
 		}
-			#Links a {
-		padding: 5px;
-		font-weight: normal;
-		float: left;
-	}
-		#Links a:link {
-		color: #333333;
-		text-decoration: none;
-		font-weight: bold;
-	}
-	#Links{
-		float: right;
-		line-height: 0px;
-		padding-right: 5px;
-		color: #999;
-	}
-	#JobTitle{
-	clear: both;
-	float: left;
-	height: 50px;
-	width: 100%;
-	line-height: 20px;
-	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	}
-	#Name{
-	clear: both;
-	height: 50px;
-	width: 400px;
-	float: left;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 18px;
-}
+
+
+
 #About{
 	clear: both;
-	margin-right: auto;
-	margin-left: auto;
 	height: 270px;
-	width: 95%;
+	width: 100%;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-top-color: #CCC;
 	border-right-color: #CCC;
 	border-bottom-color: #CCC;
 	border-left-color: #CCC;
+	float: left;
 }
 }
 

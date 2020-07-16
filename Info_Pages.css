@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	background-color: #FFF;
+	height: 1550px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+
+
+
+#BodySection{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 30%;
+	margin-top: 100px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#Body{
+	background-color: #CCC;
+	width: 100%;
+}
