@@ -108,13 +108,13 @@
 
 #BreakPoint 600px{}
 #header{
-
+	height: 140px;
 }
 #LeftHeader{
 
 }
 #JobTitle{
-
+	margin-top: 20px;
 	}
 #Name{
 
