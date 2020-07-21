@@ -3,7 +3,7 @@
 
 #wrapper{
 	background-color: #FFF;
-	height: 1550px;
+	height: 3000px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -16,12 +16,12 @@
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	height: 30%;
-	margin-top: 100px;
+	height: 700px;
+	margin-top: 50px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 	font-family: "Times New Roman", Times, serif;
-	font-weight: bold;
+	font-weight: normal;
 	text-transform: capitalize;
 	text-align: center;
 }
@@ -29,4 +29,57 @@
 #Body{
 	background-color: #CCC;
 	width: 100%;
+}
+#Headings{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	text-decoration: underline;
+	text-align: left;
+}
+#Paragrah{
+	text-align: left;
+}
+#HeaderImage{
+	margin-right: auto;
+	margin-left: auto;
+	height: 342px;
+	width: 855px;
+	margin-bottom: 70px;
+}
+#pc{
+	display: block;
+}
+#Tablet{
+	display: none;
+}
+#Mobile{
+	display: none;
+}
+@media only screen and (max-width: 999px) {
+	
+#pc{
+	display: none;
+}
+#Tablet{
+	display: block;
+}
+#Mobile{
+	display: none;
+}
+	
+	
+}
+@media only screen and (max-width: 600px) {
+#BodySection{
+	margin-top: 100px;
+}
+#pc{
+	display: none;
+}
+#Tablet{
+	display: none;
+}
+#Mobile{
+	display: block;
+}
 }
