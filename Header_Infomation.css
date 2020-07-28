@@ -60,6 +60,20 @@
     #Links a:active {
 	color: #000000;
 }
+#Contact_Infoamtion{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(Image/Updated_Header.jpg);
+	height: 125px;
+	background-repeat: no-repeat;
+}
+#email{
+	clear: both;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+}
 
 @media only screen and (max-width: 999px) {
 #BreakPoint 999px{}

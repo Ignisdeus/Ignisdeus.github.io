@@ -2,16 +2,13 @@
 /* CSS Document */
 
 #wrapper{
-	background-color: #FFF;
-	height: 3000px;
+	height: 2200px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
+	background-color: #FFF;
 }
-
-
-
 #BodySection{
 	width: 90%;
 	margin-right: auto;
@@ -38,6 +35,8 @@
 }
 #Paragrah{
 	text-align: left;
+	text-transform: none;
+
 }
 #HeaderImage{
 	margin-right: auto;
@@ -55,6 +54,33 @@
 #Mobile{
 	display: none;
 }
+#GameInformation{
+	height: 30%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#BodySectionTypeTwo{
+	height: 40%;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+#GameImage{
+	height: 256px;
+	width: 256px;
+	float: left;
+}
+#GameParagraph{
+	padding-top: 35px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: none;
+}
 @media only screen and (max-width: 999px) {
 	
 #pc{
@@ -70,9 +96,28 @@
 	
 }
 @media only screen and (max-width: 600px) {
+#Body{
+	background-color: #FFF;
+	}
+#wrapper{
+	background-color: #FFF;
+	width: 360px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	height: 2800px;
+}
+#HeaderImage{
+	margin-right: auto;
+	margin-left: auto;
+	height: 130px;
+
+}
 #BodySection{
 	margin-top: 100px;
+	height: 740px;
 }
+
 #pc{
 	display: none;
 }
@@ -81,5 +126,29 @@
 }
 #Mobile{
 	display: block;
+	clear: both;
+	float: left;
+	/* [disabled]background-color: #0F0; */
+}
+#GameImage{
+	height: 300px;
+	width: 300px;
+}
+#GameParagraph{
+	padding-top: 35px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: none;
+}
+#GameInformation{
+	height: 600px;
+}
+#BodySectionTypeTwo{
+	height: 1825px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
 }
 }
