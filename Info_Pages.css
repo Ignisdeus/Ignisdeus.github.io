@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #wrapper{
-	height: 2200px;
+	height: 1900px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -63,7 +63,7 @@
 	padding-left: 10px;
 }
 #BodySectionTypeTwo{
-	height: 40%;
+	height: 850px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 	width: 90%;
