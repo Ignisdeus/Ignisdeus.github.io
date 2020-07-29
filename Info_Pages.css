@@ -9,6 +9,19 @@
 	clear: both;
 	background-color: #FFF;
 }
+#BodySectionTop{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 700px;
+	margin-top: 50px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+}
 #BodySection{
 	width: 90%;
 	margin-right: auto;
@@ -25,7 +38,7 @@
 
 #Body{
 	background-color: #CCC;
-	width: 100%;
+	width: 99%;
 }
 #Headings{
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -99,9 +112,22 @@
 #Body{
 	background-color: #FFF;
 	}
+#BodySectionTop{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 750px;
+	margin-top: 50px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+}
 #wrapper{
 	background-color: #FFF;
-	width: 360px;
+	width: 350px;
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
@@ -141,9 +167,10 @@
 }
 #GameInformation{
 	height: 600px;
+	padding-top: 20px;
 }
 #BodySectionTypeTwo{
-	height: 1825px;
+	height: 1900px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 	width: 90%;
@@ -151,4 +178,9 @@
 	margin-left: auto;
 	padding: 10px;
 }
+#Contact_Infoamtion{
+	margin-top: 20px;
+}
+#Paragrah{
+	}
 }
