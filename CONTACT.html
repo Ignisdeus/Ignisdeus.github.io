@@ -1,22 +1,4 @@
 
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("micahel.j.carstairs@gmail.com", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -53,19 +35,11 @@ $_POST["insert your message here"]. "From: an@email.address");
     </div>
 	<div id= "Paragrah">
  	<h2>- Email</h2>
-    <p><a href="michael.j.carstairs@gmail.com">E-mail Michael here</a> <br /><br /> or</p>
+    <address>
+    <p><a href="mailto:michael.j.carstairs@gmail.com">E-mail Michael here</a> <br /><br /> or</p>
+    </address>
     
-   	<form action=”mailto:michael.j.carstairs@gmail.com”
-    method=”POST”
-    enctype=”multipart/form-data”
-    name=”EmailForm”>
-    Name: <br />
-    <input type=”text” size=”19″ name=”ContactName”><br><br>
-    E-Mail: <br />
-    <input type=”text” size=”19″ name=”ContactName”><br><br>
-    Message:<br> <textarea name=”ContactCommentt” rows=”10″ cols=”60″></textarea><br><br>
-    <input name="Submit" type="submit" />
-    </form>
+   
     <h2>- LinkedIn</h2>
     <p>   <a href="https://www.linkedin.com/in/michael-carstairs-449633146/">Find Michael Here</a></p>
     
