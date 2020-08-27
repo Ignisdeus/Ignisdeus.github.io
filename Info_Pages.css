@@ -10,7 +10,7 @@
 	background-color: #FFF;
 }
 #wrapperContact{
-	height: 1700px;
+	height: 1100px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -18,10 +18,12 @@
 	background-color: #FFF;
 }
 #BodySectioncContact{
-	height: 1000px;
+	height: 700px;
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
 }
 #ContactHead{
 	background-color: #900;
@@ -142,8 +144,8 @@
 #Body{
 	background-color: #FFF;
 	}
-	#wrapperContact{
-	height: 1700px;
+#wrapperContact{
+	height: 700px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -221,4 +223,12 @@
 }
 #Paragrah{
 	}
+	#BodySectioncContact{
+	height: 500px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
 }
