@@ -9,6 +9,28 @@
 	clear: both;
 	background-color: #FFF;
 }
+#wrapperContact{
+	height: 1700px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	background-color: #FFF;
+}
+#BodySectioncContact{
+	height: 1000px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ContactHead{
+	background-color: #900;
+	height: 10%;
+	width: 40%;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	}
 #BodySectionTop{
 	width: 90%;
 	margin-right: auto;
@@ -95,6 +117,14 @@
 	text-transform: none;
 }
 @media only screen and (max-width: 999px) {
+#wrapperContact{
+	height: 1700px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	background-color: #FFF;
+}	
 	
 #pc{
 	display: none;
@@ -112,6 +142,14 @@
 #Body{
 	background-color: #FFF;
 	}
+	#wrapperContact{
+	height: 1700px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	background-color: #FFF;
+}
 #BodySectionTop{
 	width: 90%;
 	margin-right: auto;
