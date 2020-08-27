@@ -38,7 +38,7 @@ $_POST["insert your message here"]. "From: an@email.address");
         <div id ="JobTitle">Game Programmer / Game Designer</div>
     </div>
     <div id = "Links">
-    	<p><a href="index.html">HOME</a> <a href="GAME.html">GAME</a> <a href="CONTACT.html">CONTACT</a></p>
+    	<p><a href="index.html">HOME</a> <a href="GAME.html">GAME</a> <a href="CONTACT.php">CONTACT</a></p>
     </div>
   </div>
 
