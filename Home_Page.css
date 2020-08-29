@@ -57,6 +57,9 @@
 #Body{
 	background-color: #CCC;
 	width: 100%;
+	background-image: url(Image/BackGround.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 
@@ -253,10 +256,10 @@
 	width: 350px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #FFF;
+	
 	}
 	#wrapper{
-	height: 2500px;
+	height: 2550px;
 	width: 360px
 	;
 	margin-right: auto;

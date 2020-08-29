@@ -61,8 +61,10 @@
 }
 
 #Body{
-	background-color: #CCC;
 	width: 99%;
+	background-attachment: fixed;
+	background-image: url(Image/BackGround.jpg);
+	background-repeat: no-repeat;
 }
 #Headings{
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -142,10 +144,10 @@
 }
 @media only screen and (max-width: 600px) {
 #Body{
-	background-color: #FFF;
+	
 	}
 #wrapperContact{
-	height: 700px;
+	height: 810px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -171,9 +173,10 @@
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
-	height: 2800px;
+	height: 3025px;
 }
 #HeaderImage{
+	width: 350px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 130px;
