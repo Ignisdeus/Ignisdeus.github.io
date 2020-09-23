@@ -55,11 +55,8 @@
 	border-bottom-color: #CCC;
 }
 #Body{
-	background-color: #CCC;
+	background-color: #FFF;
 	width: 100%;
-	background-image: url(Image/BackGround.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 
 

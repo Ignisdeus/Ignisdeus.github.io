@@ -46,6 +46,19 @@
 	text-transform: capitalize;
 	text-align: center;
 }
+#BodySectionTopGame{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 750px;
+	margin-top: 50px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	text-transform: capitalize;
+	text-align: center;
+}
 #BodySection{
 	width: 90%;
 	margin-right: auto;
@@ -62,8 +75,6 @@
 
 #Body{
 	width: 99%;
-	background-attachment: fixed;
-	background-image: url(Image/BackGround.jpg);
 	background-repeat: no-repeat;
 }
 #Headings{
